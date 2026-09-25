@@ -4,3 +4,6 @@ loadHome();
 
 import { loadMenu } from './modules/menu.js';
 loadMenu()
+
+import { loadContact } from './modules/contact.js';
+loadContact();
