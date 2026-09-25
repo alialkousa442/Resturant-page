@@ -1,6 +1,7 @@
 
 export function loadHome() {
   const content = document.getElementById('content');
+  content.textContent="";
   const homeContainer = document.createElement('div')
   const heroTitle = document.createElement('h1');
   const description = document.createElement('p');
